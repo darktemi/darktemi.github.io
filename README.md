@@ -7,6 +7,6 @@
 **혈액형 : B+<br><br>**
 **MBTI : [ESFJ(사교적인 외교관)](https://namu.wiki/w/ESFJ)<br><br>**
 **취미 : 배구, 등산 <br><br>**
-**이력 : [(주) 디클](https://dicle.co.kr target = "black") 태블릿/올인원 팀 AS 팀장(7년 근무)<br><br>**
+**이력 : [(주) 디클](https://dicle.co.kr target="_blank") 태블릿/올인원 팀 AS 팀장(7년 근무)<br><br>**
 
 소 개 : <br><br>안녕하세요. 서영훈입니다.<br>
