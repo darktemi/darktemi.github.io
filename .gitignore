@@ -1,7 +1,5 @@
-archive
-node_modules
-.idea
+_site
 .sass-cache
-.git
-.DS_Store
-Blog.xcworkspace
+.jekyll-cache
+.jekyll-metadata
+vendor
