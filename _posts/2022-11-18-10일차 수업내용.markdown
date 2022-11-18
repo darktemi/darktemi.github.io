@@ -47,3 +47,96 @@ $ vagrant -v
 ~/vm-project/centos$ vagrant init "centos/7"
 '''입력하면 이미지가 없으면 다운로드 함
 
+### Vagrant 설정 파일(Vagrantfile) 준비
+
+```bash
+~/vm/centos$ vagrant init centos/7
+~/vm/centos$ cat Vagrantfile
+Vagrant.configure("2") do |config|
+  # ...
+end
+```
+
+### Box 다운로드 및 VM 생성, 실행
+
+```bash
+~/vm/centos$ vagrant up
+```
+
+### 가상 머신에 ssh 접속
+
+```bash
+~/vm/centos$ vagrant ssh
+```
+
+### VM 정지
+
+```bash
+~/vm/centos$ vagrant halt
+```
+
+### VM 삭제
+
+```bash
+~/vm/centos$ vagrant destroy
+```
+
+## Vagrantfile
+
+### 호스트 이름 설정하기 
+
+```
+# /etc/hosts 파일에 등록될 이름을 지정할 수 있다.
+config.vm.hostname = "호스트명"
+
+예) config.vm.hostname = "myhost.localhost"
+```
+
+## 실행 중인 Vagrant 머신에 접속하기
+
+### 현재 프로젝트의 머신에 SSH 접속하기
+
+```bash
+$ vagrant ssh
+
+또는
+
+$ vagrant ssh default
+```
+
+### 현재 프로젝트의 머신 상태 알아내기
+
+```bash
+$ vagrant status
+Current machine states:
+
+node1                     running (virtualbox)
+node2                     running (virtualbox)
+
+This environment represents multiple VMs. The VMs are all listed
+above with their current state.
+
+# 실행 중인 머신 접속하기
+$ vagrant ssh node1
+```
+
+### 다른 프로젝트를 포함하여 머신 상태 알아내기
+
+```bash
+$ vagrant global-status
+id       name    provider   state   directory                             
+--------------------------------------------------------------------------
+f483730  default virtualbox running /Users/eomjinyoung/virtualbox/cenos   
+a3aafac  default virtualbox running /Users/eomjinyoung/virtualbox/centos2 
+ 
+...
+
+# 실행 중인 머신 접속하기
+$ vagrant ssh a3aafac
+```
+
+### ssh 로 직접 접속하기
+
+```bash
+$ ssh -i .vagrant/machines/default/virtualbox/private_key vagrant@IP주소
+```
