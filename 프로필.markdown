@@ -22,4 +22,4 @@ MBTI : ESFJ
 
 
 
-[def width = "50"]: 1.jpg
+[def]: 1.jpg
