@@ -1,8 +1,8 @@
 ---
 layout: 실습 2 하이퍼바이저
 title:  "하이퍼바이저"
-date:   2022-11-18 14:19:21 +0900
-categories: jekyll update
+date:   2022-11-18 +0900
+categories: darktemi update
 ---
 
 ## 실습 2 하이퍼바이저 란
