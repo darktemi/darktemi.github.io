@@ -4,8 +4,6 @@ title: 프로필
 permalink: /about/
 ---
 
-<img src="1.jpg">
-
 이름 : 서영훈
 
 생년월일 : 1990년 1월 31일 (만 32세)
