@@ -5,7 +5,7 @@ date:   2022-11-18 23:50 +0900
 categories: darktemi update
 ---
 
-## 수업 내용
+## [수업 내용]
 
 ## 리눅스 설치
 
@@ -140,3 +140,4 @@ $ vagrant ssh a3aafac
 ```bash
 $ ssh -i .vagrant/machines/default/virtualbox/private_key vagrant@IP주소
 ```
+[수업 내용]:C:\Users\Administrator\git\darktemi.github.io\_practice\class.markdown

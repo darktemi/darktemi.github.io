@@ -4,7 +4,7 @@ title: 프로필
 permalink: /about/
 ---
 
-![증명사진][def]
+![증명사진][1]
 
 이름 : 서영훈
 
@@ -22,4 +22,4 @@ MBTI : ESFJ
 
 
 
-[def]: 1.jpg
+[1]:1.jpg
