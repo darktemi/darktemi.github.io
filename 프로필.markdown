@@ -4,7 +4,7 @@ title: 프로필
 permalink: /about/
 ---
 
-![증명사진](1.jpg width = "200")
+![증명사진][def width = "200"]
 
 이름 : 서영훈
 
@@ -20,3 +20,6 @@ MBTI : ESFJ
 
 **이력 : [(주) 디클](https://dicle.co.kr) 에서 태블릿 / 올인원 PC AS 팀장 (7년 근무)**
 
+
+
+[def]: 1.jpg
