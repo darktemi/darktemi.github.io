@@ -1,9 +1,0 @@
----
-layout: 하이퍼바이저
-title:  "실습 2 하이퍼바이저"
-date:   2022-11-18 23:40 +0900
-categories: darktemi update
----
-
-## 실습 2 하이퍼바이저 란
-
