@@ -24,6 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   비트 캠프 수업 일지
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://github.com/darktemi"
+twitter_username: 
 github_username: darktemi
 
 # Build settings
