@@ -21,7 +21,7 @@
 title: 서영훈의 블로그
 email: darktemi90@nate.com
 description: >- # this means to ignore newlines until "baseurl:"
-  비트 캠프 NAVER CLOUD AIaaS 과정 1기
+  비트 캠프 NAVER CLOUD AIaaS 과정 1기 과정
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://github.com/darktemi"
 twitter_username: 
