@@ -5,9 +5,9 @@ date:   2022-11-18 23:59 +0900
 categories: darktemi update
 ---
 
-<center>
-<br><br><br>
-# [★수업 내용★]<br>
+<center><br><br><br>
+
+## [★수업 내용★]<br>
 
 ## [1. MD란 무엇인가?]<br>
 
@@ -16,7 +16,7 @@ categories: darktemi update
 ## [3. Vagrant로 centOS 생성 및 설정]<br>
 </center>
 
-[★수업 내용★]: "https://github.com/darktemi/darktemi.github.io/issues/2#issue-1455705055.docx"
-[1. MD란 무엇인가?]:darktemi.github.io/_posts/MD(MarkDown).markdown
-[2. 하이퍼 바이저란 무엇인가?]:darktemi.github.io/_posts/Hypervisor.markdown
-[3. Vagrant로 centOS 생성 및 설정]:darktemi.github.io/_posts/centOS.markdown
+[★수업 내용★]: "class.markdown"
+[1. MD란 무엇인가?]: "MD(MarkDown).markdown"
+[2. 하이퍼 바이저란 무엇인가?]: "Hypervisor"
+[3. Vagrant로 centOS 생성 및 설정]: "centOS.markdown"
