@@ -2,10 +2,10 @@
 title: 서영훈의 개인 홈피
 description: 배구, 등산, 맛집 탐방 등 소소한 일상
 url: https://darktemi.github.io
-avatar: /프로필.jpeg
+avatar: /avatar.jpeg
 paginate: 5
 permalink: pretty
-cover_image: /배경.jpeg
+cover_image: /bg.jpeg
 
 # Gems
 plugins:
