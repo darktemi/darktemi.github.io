@@ -11,12 +11,12 @@ categories: darktemi update
 
 ## [1. MD란 무엇인가?]<br>
 
-## [1. 하이퍼 바이저란 무엇인가?]<br>
+## [2. 하이퍼 바이저란 무엇인가?]<br>
 
-## [1. Vagrant로 centOS 생성 및 설정]<br>
+## [3. Vagrant로 centOS 생성 및 설정]<br>
 </center>
 
-[수업 내용]: "https://github.com/darktemi/darktemi.github.io/issues/2#issue-1455705055.docx"
-[MD란 무엇인가?]:darktemi.github.io/_posts/MD(MarkDown).markdown
-[하이퍼 바이저란 무엇인가?]:darktemi.github.io/_posts/Hypervisor.markdown
-[Vagrant로 centOS 생성 및 설정]:darktemi.github.io/_posts/centOS.markdown
+[★수업 내용★]: "https://github.com/darktemi/darktemi.github.io/issues/2#issue-1455705055.docx"
+[1. MD란 무엇인가?]:darktemi.github.io/_posts/MD(MarkDown).markdown
+[2. 하이퍼 바이저란 무엇인가?]:darktemi.github.io/_posts/Hypervisor.markdown
+[3. Vagrant로 centOS 생성 및 설정]:darktemi.github.io/_posts/centOS.markdown

@@ -4,20 +4,24 @@ title: 프로필
 permalink: /about/
 ---
 
-<img src= "https://github.com/darktemi/darktemi.github.io/issues/1#issue-1455698074.jpg" width="100">
+![1][def]<br><br><br>
 
-이름 : 서영훈
 
-생년월일 : 1990년 1월 31일 (만 32세)
+### 이름 : 서영훈 ###
 
-혈액형 : B+
+### 생년월일 : 1990년 1월 31일 (만 32세) ###
 
-MBTI : ESFJ
+### 혈액형 : B+ ###
 
-취미 : 배구, 등산, 캠핑
+### MBTI : ESFJ ###
+
+### 취미 : 배구, 등산, 캠핑 ###
 
 **Github 주소[darktemi](https://github.com/darktemi)**
 
 **이력 : [(주) 디클](https://dicle.co.kr) 에서 태블릿 / 올인원 PC AS 팀장 (7년 근무)**
 
 
+
+
+[def]: https://user-images.githubusercontent.com/115456181/202794521-bf0e888c-76a3-48bd-bf09-bacd0af10c69.jpg
