@@ -10,12 +10,10 @@
 
 title: 서영훈의 블로그
 email: darktemi90@nate.com
-<img src="1.jpg" width="100">
 description: >
   비트 캠프 NAVER CLOUD AIaaS 1기
 baseurl: "https://darktemi.github.io"
 url: "https://github.com/darktemi"
-twitter_username: dd
 github_username: darktemi
 
 # Build settings
