@@ -5,8 +5,6 @@ date:   2022-11-18 23:50 +0900
 categories: darktemi update
 ---
 
-## 수업 내용
-
 ## 리눅스 설치
 
 - 가상 머신 구축 시스템 설치: Virtualbox
