@@ -4,7 +4,7 @@ title: 프로필
 permalink: /about/
 ---
 
-<img src="1.jpg" width="100">
+<img src="https://github.com/darktemi/darktemi.github.io/issues/1#issue-1455698074.jpg" width="100">
 
 이름 : 서영훈
 
