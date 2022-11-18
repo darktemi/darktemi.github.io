@@ -14,7 +14,7 @@ categories: darktemi update
 ## [Vagrant로 centOS 생성 및 설정]
 
 
-[수업 내용]:darktemi.github.io/_posts/class.markdown
+[수업 내용]: "https://github.com/darktemi/darktemi.github.io/issues/2#issue-1455705055"
 [MD란 무엇인가?]:darktemi.github.io/_posts/MD(MarkDown).markdown
 [하이퍼 바이저란 무엇인가?]:darktemi.github.io/_posts/Hypervisor.markdown
 [Vagrant로 centOS 생성 및 설정]:darktemi.github.io/_posts/centOS.markdown
