@@ -1,0 +1,11 @@
+---
+layout: 비트캠프 네이버 클라우드 AIaas 과정 10일차
+title:  "비트캠프 네이버 클라우드 AIaas 과정 10일차"
+date:   2022-11-18 +0900
+categories: darktemi update
+---
+
+## 수업 내용
+
+
+
