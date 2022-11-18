@@ -4,7 +4,7 @@ title:  "네이버 클라우드 AIaas 과정 1기 10일차 수업 내용"
 date:   2022-11-18 23:59 +0900
 categories: darktemi update
 ---
-<center><br><br>
+<br><br>
 
 ## [수업 내용]
 
@@ -13,7 +13,7 @@ categories: darktemi update
 ## [하이퍼 바이저란 무엇인가?]
 
 ## [Vagrant로 centOS 생성 및 설정]
-</center>
+
 
 [수업 내용]: "darktemi.github.io/_posts/class.markdown"
 [MD란 무엇인가?]: "darktemi.github.io/_posts/MD(MarkDown).markdown"
