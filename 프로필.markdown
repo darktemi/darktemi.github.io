@@ -4,7 +4,7 @@ title: 프로필
 permalink: /about/
 ---
 
-![증명사진][def width = "200"]
+![증명사진][def]
 
 이름 : 서영훈
 
