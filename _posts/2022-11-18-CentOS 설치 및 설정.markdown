@@ -8,7 +8,7 @@ categories: darktemi update
 # Vagrant 를 이용한 CentOS 설치 및 계정 설정
 
 ---
-## 1. Vagrant 설치
+## Vagrant 설치
 
 <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Vagrant.png/150px-Vagrant.png">
 
@@ -21,7 +21,7 @@ $ vagrant -v
 ```
 
 ---
-## 1. VirtualBox 설치
+## VirtualBox 설치
 
 <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Virtualbox_logo.png/100px-Virtualbox_logo.png">
 
@@ -32,7 +32,7 @@ Virtualbox 설치
 - Virtualbox 설치
 
 ---
-## 1. 가상 머신 프로젝트 폴더 생성
+## 가상 머신 프로젝트 폴더 생성
 
 ```bash
 ~$ mkdir vm-project
@@ -50,7 +50,7 @@ Virtualbox 설치
 ~/vm-project/centos$ vagrant init "centos/7"
 '''입력하면 이미지가 없으면 다운로드 함
 
-### Vagrant 설정 파일(Vagrantfile) 준비
+### vs code에서 Vagrant 설정 파일(Vagrantfile) 준비
 
 ```bash
 ~/vm/centos$ vagrant init centos/7
