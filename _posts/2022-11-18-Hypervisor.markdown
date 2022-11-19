@@ -7,6 +7,7 @@ categories: darktemi update
 
 ![hypervisor][hypervisor]<br><br><br>
 
+[hypervisor]: http://kr.aving.net/news/photo/202210/1773310_691713_1732.jpg
 ---
 # 가상화(Virtualization)와 하이퍼바이저(Hypervisor) 개념 정리
 
@@ -179,8 +180,6 @@ virtual box 설치하고(하이퍼바이저),
 
 <http://blog.naver.com/PostView.nhn?blogId=shakey7&logNo=221472286783&from=search&redirect=Log&widgetTypeCall=true&directAccess=false>
 
-[hypervisor]: http://kr.aving.net/news/photo/202210/1773310_691713_1732.jpg
-[가상 1]: https://user-images.githubusercontent.com/115456181/202860414-a9bdccd8-71e7-497d-80e3-a618e17ba4d8.jpg
 [가상 2]: https://user-images.githubusercontent.com/115456181/202860415-a384627d-5794-44b4-9613-62d01cc83357.jpg
 [가상 3]: https://user-images.githubusercontent.com/115456181/202860416-c3b757b5-48e8-464f-b9ed-32c193126c14.jpg
 [가상 4]: https://user-images.githubusercontent.com/115456181/202860418-1f93b274-4b53-4b27-903c-12c92ab7ea15.jpg
