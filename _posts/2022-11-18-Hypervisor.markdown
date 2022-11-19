@@ -24,7 +24,7 @@ categories: darktemi update
 
 - 물리서버 단위가 아닌 애플리케이션(Application)단위로 전환한다
 
-![가상화 1][가상화 1]
+![가상화 1][가상 1]
 
 그림에서 보이다시피 **가상화 이전에는**<br>
 어떤 서비스를 운영하기 위해서는 Application들이 os단위에 올라가 있고,<br>
@@ -33,7 +33,8 @@ categories: darktemi update
 
 
 그런데 **가상화 이후에는**
-어떤 서비스를 운영하기 위한 Application들이 바로 os위에 올라가는게 아니라 가상머신 위에 올라간다. 그 가상머신에는 이제 여러가지 컴퓨터들을 띄울 수 있는 환경이 됨
+어떤 서비스를 운영하기 위한 Application들이 바로 os위에 올라가는게 아니라 가상머신 위에 올라간다.
+그 가상머신에는 이제 여러가지 컴퓨터들을 띄울 수 있는 환경이 됨
 그래서 하나의 컴퓨터에서 여러가지 환경을 가진 App을 운영할 수 있음 
 
 ---  
@@ -45,22 +46,21 @@ categories: darktemi update
 
 그런데 OS마다 명령어를 해석하는 규칙도 다르다
 
-![가상화 2][가상화 2]
+![가상화 2][가상 2]
 
-출처 https://blog.naver.com/alice_k106/220218878967 
+출처 <https://blog.naver.com/alice_k106/220218878967>
 
-예를 들어 하드웨어는 덧셈연산을 하고 싶다.
-하지만 나라마다 언어가 다르듯이 윈도우OS는 'Add' 라고, 레드헷OS은 'ADD'라고, 맥OS는 'add'라고 말한다. 
+예를 들어 하드웨어는 덧셈연산을 하고 싶다.<br>
+하지만 나라마다 언어가 다르듯이 윈도우OS는 'Add' 라고, 레드헷OS은 'ADD'라고, 맥OS는 'add'라고 말한다.
 
 다 같은 의미이긴하지만 게스트OS마다 말하는 다르기 때문에 처리할 명령을 이해할 수 없다. 
 
-
-그럼 어떻게 이런 명령어들을 이해해서 각각 OS를 구동하게 할까?
+그럼 어떻게 이런 명령어들을 이해해서 각각 OS를 구동하게 할까?<br>
 <u>하이퍼바이저가 각 OS마다 말하는 명령을 하드웨어가 이해할 수 있게 하나의 명령어로 번역해준다.</u>
 
-![가상화 3][가상화 3]
+![가상화 3][가상 3]
 
-출처 https://blog.naver.com/alice_k106/220218878967  
+출처 <https://blog.naver.com/alice_k106/220218878967>
 
 //이렇게 구동되는 하이퍼바이저 가상화방식 : 전가상화 
 
@@ -81,7 +81,7 @@ categories: darktemi update
 ---
 ### +하이퍼바이저 유형 
 
-![가상화 4][가상화 4]
+![가상화 4][가상 4]
 
 #### TYPE1  
 
@@ -96,9 +96,9 @@ VM에 설치된 게스트OS들은 하드웨어 바로 위에 구동됨
 
 #### (1) 전가상화 
 
-![가상화 5][가상화 5]
+![가상화 5][가상 5]
 
-출처 : http://pyrasis.com/book/TheArtOfAmazonWebServices/Chapter01/01
+출처 : <http://pyrasis.com/book/TheArtOfAmazonWebServices/Chapter01/01>
 
 
 하드웨어 전체를 가상화하는 방식 
@@ -114,9 +114,9 @@ Guest OS에서 물리자원을 직접 접근불가
 ---
 #### (2) 반가상화
 
-![가상화 6][가상화 6]
+![가상화 6][가상 6]
 
-출처 : http://pyrasis.com/book/TheArtOfAmazonWebServices/Chapter01/01 
+출처 : <http://pyrasis.com/book/TheArtOfAmazonWebServices/Chapter01/01>
 
 - 게스트OS가 자신이 가상머신 위에 동작하고 있다는걸 인식할 수 있음 
 - OS의 제약이 있다 
@@ -139,11 +139,12 @@ Guest os의 명령어를 하나의 하이퍼바이저가 해석하는게 아니�
 그런데 각 os의 커널 이걸 직접 못해서 OS커널을 직접 수정해야함(확성기를 만들어줘야함) 
 그래서 리눅스같은 오픈소스os를 사용해서 반가상화 방식 이용 
 
-![가상화 7][가상화 7]
+![가상화 7][가상 7]
 
-https://itholic.github.io/hypervisor/ 
+<https://itholic.github.io/hypervisor>
 
-TYPE2 
+---
+TYPE2
 
 일반적으로 사용하는 가상화방식(호스트형가상화) 
 <u>HOST OS위에 하이퍼바이저가 실행되고, 그 위에 Guest OS를 올리는 방식 (ex: Xen방식)</u>
@@ -155,6 +156,7 @@ virtual box 설치하고(하이퍼바이저),
 실행시킴(가상머신) 
 그 안에서 리눅스OS사용(게스트OS) 
 
+---
 출처 <https://augustines.tistory.com/142> 
 
 클라우드 이해 <augustines.tistory.com> 
@@ -176,10 +178,10 @@ virtual box 설치하고(하이퍼바이저),
 <http://blog.naver.com/PostView.nhn?blogId=shakey7&logNo=221472286783&from=search&redirect=Log&widgetTypeCall=true&directAccess=false>
 
 [hypervisor]: http://kr.aving.net/news/photo/202210/1773310_691713_1732.jpg
-[가상화 1]: https://user-images.githubusercontent.com/115456181/202860414-a9bdccd8-71e7-497d-80e3-a618e17ba4d8.jpg
-[가상화 2]: https://user-images.githubusercontent.com/115456181/202860415-a384627d-5794-44b4-9613-62d01cc83357.jpg
-[가상화 3]: https://user-images.githubusercontent.com/115456181/202860416-c3b757b5-48e8-464f-b9ed-32c193126c14.jpg
-[가상화 4]: https://user-images.githubusercontent.com/115456181/202860418-1f93b274-4b53-4b27-903c-12c92ab7ea15.jpg
-[가상화 5]: https://user-images.githubusercontent.com/115456181/202860420-cf958e16-251c-4830-85a8-c779f515b943.jpg
-[가상화 6]: https://user-images.githubusercontent.com/115456181/202860421-b7745d08-a511-4558-9570-23010dcddc2f.jpg
-[가상화 7]: https://user-images.githubusercontent.com/115456181/202860422-2027d451-801f-4f41-b1e9-69f1e4ac98a4.jpg
+[가상 1]: https://user-images.githubusercontent.com/115456181/202860414-a9bdccd8-71e7-497d-80e3-a618e17ba4d8.jpg
+[가상 2]: https://user-images.githubusercontent.com/115456181/202860415-a384627d-5794-44b4-9613-62d01cc83357.jpg
+[가상 3]: https://user-images.githubusercontent.com/115456181/202860416-c3b757b5-48e8-464f-b9ed-32c193126c14.jpg
+[가상 4]: https://user-images.githubusercontent.com/115456181/202860418-1f93b274-4b53-4b27-903c-12c92ab7ea15.jpg
+[가상 5]: https://user-images.githubusercontent.com/115456181/202860420-cf958e16-251c-4830-85a8-c779f515b943.jpg
+[가상 6]: https://user-images.githubusercontent.com/115456181/202860421-b7745d08-a511-4558-9570-23010dcddc2f.jpg
+[가상 7]: https://user-images.githubusercontent.com/115456181/202860422-2027d451-801f-4f41-b1e9-69f1e4ac98a4.jpg
