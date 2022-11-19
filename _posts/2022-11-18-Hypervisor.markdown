@@ -49,7 +49,9 @@ categories: darktemi update
 
 그런데 OS마다 명령어를 해석하는 규칙도 다르다
 
-![가상화 2][가상 2]
+![가상화2][가상화2]
+
+[가상화2]: https://user-images.githubusercontent.com/115456181/202860415-a384627d-5794-44b4-9613-62d01cc83357.jpg
 
 출처 <https://blog.naver.com/alice_k106/220218878967>
 
@@ -61,7 +63,9 @@ categories: darktemi update
 그럼 어떻게 이런 명령어들을 이해해서 각각 OS를 구동하게 할까?<br>
 <u>하이퍼바이저가 각 OS마다 말하는 명령을 하드웨어가 이해할 수 있게 하나의 명령어로 번역해준다.</u>
 
-![가상화 3][가상 3]
+![가상화3][가상화3]
+
+[가상화3]: https://user-images.githubusercontent.com/115456181/202860416-c3b757b5-48e8-464f-b9ed-32c193126c14.jpg
 
 출처 <https://blog.naver.com/alice_k106/220218878967>
 
@@ -84,7 +88,9 @@ categories: darktemi update
 ---
 ### +하이퍼바이저 유형 
 
-![가상화 4][가상 4]
+![가상화4][가상화4]
+
+[가상화4]: https://user-images.githubusercontent.com/115456181/202860418-1f93b274-4b53-4b27-903c-12c92ab7ea15.jpg
 
 #### TYPE1  
 
@@ -99,7 +105,9 @@ VM에 설치된 게스트OS들은 하드웨어 바로 위에 구동됨
 
 #### (1) 전가상화 
 
-![가상화 5][가상 5]
+![가상화5][가상화5]
+
+[가상화5]: https://user-images.githubusercontent.com/115456181/202860420-cf958e16-251c-4830-85a8-c779f515b943.jpg
 
 출처 : <http://pyrasis.com/book/TheArtOfAmazonWebServices/Chapter01/01>
 
@@ -117,7 +125,9 @@ Guest OS에서 물리자원을 직접 접근불가
 ---
 #### (2) 반가상화
 
-![가상화 6][가상 6]
+![가상화6][가상화6]
+
+[가상화6]: https://user-images.githubusercontent.com/115456181/202860421-b7745d08-a511-4558-9570-23010dcddc2f.jpg
 
 출처 : <http://pyrasis.com/book/TheArtOfAmazonWebServices/Chapter01/01>
 
@@ -142,7 +152,8 @@ Guest os의 명령어를 하나의 하이퍼바이저가 해석하는게 아니�
 그런데 각 os의 커널 이걸 직접 못해서 OS커널을 직접 수정해야함(확성기를 만들어줘야함) 
 그래서 리눅스같은 오픈소스os를 사용해서 반가상화 방식 이용 
 
-![가상화 7][가상 7]
+![가상화7][가상화7]
+[가상화7]: https://user-images.githubusercontent.com/115456181/202860422-2027d451-801f-4f41-b1e9-69f1e4ac98a4.jpg
 
 <https://itholic.github.io/hypervisor>
 
