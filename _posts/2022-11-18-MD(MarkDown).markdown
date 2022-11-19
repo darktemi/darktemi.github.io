@@ -32,7 +32,7 @@ categories: darktemi update
 ### **● 마크다운의 단점**<br>
 
 **표준이 없어 사용자마다 문법이 상이할 수 있다.**<Br>
-**모든 HTML 마크업을 대신하지 못한다.**<br><br><br>
+**모든 HTML 마크업을 대신하지 못한다.**<br><br>
 
 ---
 ## 마크다운의 사용<Br>
@@ -49,23 +49,29 @@ HTML과 마찬가지로 눈에 보이는 스타일은 무시하고 각 문법의
 ## 마크다운 문법(syntax)<br>
 
 ### 제목(Header)###<br><br>
----
-<h1> 부터 <h6>까지 제목을 표현할 수 있습니다.<br>
-![제목1](https://user-images.githubusercontent.com/115456181/202827126-091a46ef-18f4-4676-8438-7985db27523c.jpg)<br><br><br>
----
 
+'<h1>' 부터 '<h6>' 까지 제목을 표현할 수 있습니다.<br>
+![제목1][def]<br><br>
+
+---
 ### 강조(Emphasis) ###<br><br>
 
----
-각각 <em>, <strong>, <del> 태그로 변환됩니다.
+각각 '<em>', '<strong>', '<del>' 태그로 변환됩니다.
 
-밑줄을 입력하고 싶다면 <u></u> 태그를 사용하세요.
+밑줄을 입력하고 싶다면 '<u></u>' 태그를 사용하세요.<br>
+![강조][def1]
 
-
-이텔릭체는 별표(asterisks) 혹은 언더바(underscore)를 사용하세요.
-두껍게는 별표(asterisks) 혹은 언더바(underscore)를 사용하세요.
+이텔릭체는 *별표(asterisks)* 혹은 _언더바(underscore)_를 사용하세요.
+두껍게는 ** 별표(asterisks) ** 혹은 __ 언더바(underscore) __를 사용하세요.
 이텔릭체와 두껍게를 같이 사용할 수 있습니다.
 취소선은 물결표시(tilde)를 사용하세요.
-밑줄은 <u></u>를 사용하세요.
+밑줄은 '<u></u>'를 사용하세요.
 
 
+---
+
+
+
+[def]: https://user-images.githubusercontent.com/115456181/202827126-091a46ef-18f4-4676-8438-7985db27523c.jpg
+
+[def1]: https://user-images.githubusercontent.com/115456181/202827107-15d4b82c-c05c-42d6-a311-f034871c8b31.jpg
