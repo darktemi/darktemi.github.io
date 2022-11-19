@@ -5,5 +5,5 @@ date:   2022-11-18 23:57 +0900
 categories: darktemi update
 ---
 
-## 실습 2 하이퍼바이저(Hypervisor) 란
+## 하이퍼바이저(Hypervisor) 란
 
