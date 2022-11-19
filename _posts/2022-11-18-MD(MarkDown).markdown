@@ -5,7 +5,6 @@ date:   2022-11-18 23:58 +0900
 categories: darktemi update
 ---
 
-<center>
 <br><br>
 <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Markdown-mark.svg/300px-Markdown-mark.svg.png"><br><br>
 
@@ -69,11 +68,3 @@ HTML과 마찬가지로 눈에 보이는 스타일은 무시하고 각 문법의
 밑줄은 <u></u>를 사용하세요.
 
 
-
-
-
-
-
-
-
-</center>
