@@ -1,5 +1,5 @@
 ---
-layout: vagrant 를 이용한  CentOS 설치 및 계정 설정
+layout: Vagrant 를 이용한  CentOS 설치 및 계정 설정
 title:  "Vagrant 를 이용한 CentOS 설치 및 계정 설정"
 date:   2022-11-18 23:56 +0900
 categories: darktemi update
