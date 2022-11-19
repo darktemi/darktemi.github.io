@@ -136,8 +136,7 @@ HTML과 마찬가지로 눈에 보이는 스타일은 무시하고 각 문법의
 
 ![이미지에 링크][이미지에 링크]
 
-[![github](https://cdn-icons-png.flaticon.com/512/25/25231.png)]
-(https:/github.com)
+[![github][github]](https:/github.com)
 
 ---
 ## 수평선(Horizontal Rule)<br>
@@ -174,3 +173,4 @@ HTML과 마찬가지로 눈에 보이는 스타일은 무시하고 각 문법의
 [이미지에 링크]: https://user-images.githubusercontent.com/115456181/202827121-43313be1-d9b4-4cc9-88a3-7d66ed4cacdf.jpg
 [수평선]: https://user-images.githubusercontent.com/115456181/202827113-8dd34a3f-4def-47cd-8323-c7c9d38c84d1.jpg
 [출처]: ttps://heropy.blog/2017/09/30/markdown
+[def]: https://cdn-icons-png.flaticon.com/512/25/25231.png
