@@ -24,7 +24,9 @@ categories: darktemi update
 
 - 물리서버 단위가 아닌 애플리케이션(Application)단위로 전환한다
 
-![가상화 1][가상 1]
+![가상화1][가상화1]
+
+[가상화1]: https://user-images.githubusercontent.com/115456181/202860414-a9bdccd8-71e7-497d-80e3-a618e17ba4d8.jpg
 
 그림에서 보이다시피 **가상화 이전에는**<br>
 어떤 서비스를 운영하기 위해서는 Application들이 os단위에 올라가 있고,<br>
