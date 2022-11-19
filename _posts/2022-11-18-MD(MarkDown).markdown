@@ -8,7 +8,7 @@ categories: darktemi update
 <br><br>
 <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Markdown-mark.svg/300px-Markdown-mark.svg.png"><br><br>
 
-# MD(MarkDown)란 무엇인가?<br><br>
+# MD(MarkDown)란 무엇인가?<br>
 
 ---
 ## **마크다운(MarkDown)** 이란<Br>
@@ -18,8 +18,8 @@ categories: darktemi update
 물론 <u>모든 HTML 마크업을 대신할 수 없기 때문에</u> 지나친 의존보다는 쉽고 빠르게 작성하는 용도로 사용하게 됩니다.<br>
 마크다운과 비슷한 형태로 문법이 좀 더 복잡하지만 확장자가 `.adoc`인 `AsciiDoc` 문법도 있습니다.<br>
 좀 더 다양한 형태의 문서를 만들 수 있지만, 문법이 좀 더 복잡하고 지원 플랫폼이 적습니다.<br><br><br>
----
 
+---
 ## **마크다운(MarkDown)**에 대해서<br><br>
 
 ### **● 마크다운의 장점**<br>
@@ -33,8 +33,8 @@ categories: darktemi update
 
 **표준이 없어 사용자마다 문법이 상이할 수 있다.**<Br>
 **모든 HTML 마크업을 대신하지 못한다.**<br><br><br>
----
 
+---
 ## 마크다운의 사용<Br>
 
 메모장부터 전용 에디터까지 많은 곳에서 활용할 수 있습니다.<br>
@@ -44,18 +44,19 @@ categories: darktemi update
 일반 블로그나 워드프레스 외 **Slack**이나 **Trello** 같은 서비스에서 메세지를 작성하듯 사용할 수도 있습니다.<br>
 화면에 표현되는 스타일**(CSS)**은 설정에 따라 달라집니다.<br>
 HTML과 마찬가지로 눈에 보이는 스타일은 무시하고 각 문법의 의미로 사용하세요.<br><br>
----
 
+---
 ## 마크다운 문법(syntax)<br>
 
-### 제목(Header) ###<br><br>
+### 제목(Header)###<br><br>
 ---
 <h1> 부터 <h6>까지 제목을 표현할 수 있습니다.<br>
 ![제목1](https://user-images.githubusercontent.com/115456181/202827126-091a46ef-18f4-4676-8438-7985db27523c.jpg)<br><br><br>
 ---
 
 ### 강조(Emphasis) ###<br><br>
----<br>
+
+---
 각각 <em>, <strong>, <del> 태그로 변환됩니다.
 
 밑줄을 입력하고 싶다면 <u></u> 태그를 사용하세요.
