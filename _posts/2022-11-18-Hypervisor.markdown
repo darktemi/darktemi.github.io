@@ -5,9 +5,9 @@ date:   2022-11-18 23:57 +0900
 categories: darktemi update
 ---
 
-![hypervisor][hypervisor]<br><br><br>
+<img src = "https://img.alicdn.com/tfs/TB1IZBKDVYqK1RjSZLeXXbXppXa-1152-1213.png_.webp"><br><br><br>
 
-[hypervisor]: http://kr.aving.net/news/photo/202210/1773310_691713_1732.jpg
+
 ---
 # 가상화(Virtualization)와 하이퍼바이저(Hypervisor) 개념 정리
 
