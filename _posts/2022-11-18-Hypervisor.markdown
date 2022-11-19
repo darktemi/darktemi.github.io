@@ -5,7 +5,7 @@ date:   2022-11-18 23:57 +0900
 categories: darktemi update
 ---
 
-<img src = "https://img.alicdn.com/tfs/TB1IZBKDVYqK1RjSZLeXXbXppXa-1152-1213.png_.webp"><br><br><br>
+<img width ="80" src = "https://img.alicdn.com/tfs/TB1IZBKDVYqK1RjSZLeXXbXppXa-1152-1213.png_.webp"><br><br><br>
 
 
 ---
