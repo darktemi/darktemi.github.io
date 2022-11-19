@@ -173,23 +173,18 @@ virtual box 설치하고(하이퍼바이저),
 ---
 출처 <https://augustines.tistory.com/142> 
 
-클라우드 이해 <augustines.tistory.com> 
-
-<https://itholic.github.io/hypervisor>
+클라우드 이해 <augustines.tistory.com><br>
+<https://itholic.github.io/hypervisor> 
 
 [virtualization] 하이퍼바이저, 전가상화, 반가상화 
-
-<itholic.github.io>
-
-<https://blog.naver.com/alice_k106/220218878967>
+<itholic.github.io><br>
+<https://blog.naver.com/alice_k106/220218878967> 
 
 [Cloud Computing] 전가상화와 반가상화 <blog.naver.com> 
-
 <http://blog.naver.com/PostView.nhn?blogId=shakey7&logNo=221599135601&parentCategoryNo=&categoryNo=22&viewDate=&isShowPopularPosts=true&from=search>
 
-클라우드 가상화 기술 정리 1 (서버 / 운영체제 OS / 전가상화 / 반가상화 / 하이퍼바이저 / VM웨어 / 시트릭스 / 마이크로소프트 / 레드햇 / 리눅스 / 인텔) <blog.naver.com> 
-
-<http://blog.naver.com/PostView.nhn?blogId=shakey7&logNo=221472286783&from=search&redirect=Log&widgetTypeCall=true&directAccess=false>
+클라우드 가상화 기술 정리 1 (서버 / 운영체제 OS / 전가상화 / 반가상화 / 하이퍼바이저 / VM웨어 / 시트릭스 / 마이크로소프트 / 레드햇 / 리눅스 / 인텔)<br>
+<http://blog.naver.com/PostView.nhn?blogId=shakey7&logNo=221472286783&from=search&redirect=Log&widgetTypeCall=true&directAccess=false> 
 
 [가상 2]: https://user-images.githubusercontent.com/115456181/202860415-a384627d-5794-44b4-9613-62d01cc83357.jpg
 [가상 3]: https://user-images.githubusercontent.com/115456181/202860416-c3b757b5-48e8-464f-b9ed-32c193126c14.jpg
