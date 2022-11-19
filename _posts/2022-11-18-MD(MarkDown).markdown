@@ -120,7 +120,7 @@ HTML과 마찬가지로 눈에 보이는 스타일은 무시하고 각 문법의
 
 ## 이미지(Image)<br>
 
-<img>로 변환됩니다.<br>
+'img'로 변환됩니다.<br>
 링크과 비슷하지만 앞에 !가 붙습니다.<br><br><br>
 
 ![이미지][이미지]<br>
@@ -136,7 +136,7 @@ HTML과 마찬가지로 눈에 보이는 스타일은 무시하고 각 문법의
 
 ![이미지에 링크][이미지에 링크]
 
-[![github](https://cdn-icons-png.flaticon.com/512/25/25231.png)(https:/github.com)]
+[![github][def][def2]]
 
 ---
 
@@ -165,3 +165,5 @@ HTML과 마찬가지로 눈에 보이는 스타일은 무시하고 각 문법의
 [사진1]: https://user-images.githubusercontent.com/115456181/202846393-f6dee840-da9a-4167-8edc-4dbffe607a2c.jpg
 [사진2]: https://user-images.githubusercontent.com/115456181/202846395-b74e32d1-90d5-40e3-b591-df1abde07a00.jpg
 [이미지에 링크]: https://user-images.githubusercontent.com/115456181/202827121-43313be1-d9b4-4cc9-88a3-7d66ed4cacdf.jpg
+[def]: https://cdn-icons-png.flaticon.com/512/25/25231.png
+[def2]: https:/github.com
