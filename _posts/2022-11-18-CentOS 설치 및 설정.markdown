@@ -8,48 +8,138 @@ categories: darktemi update
 # Vagrant 를 이용한 CentOS 설치 및 계정 설정
 
 ---
-## 1. Git 설치
-
-<img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/154px-Git-logo.svg.png">
-
-Git 은 컴퓨터 파일의 변경사항을 추적하고 여러 명의 사용자들 간에 해당 파일들의 작업을 조율하기 위한 스냅샷 스트림 기반의 분산 버전 관리 시스템이다. 또는 이러한 명령어를 가리킨다.<br>
-소프트웨어 개발에서 소스 코드 관리에 주로 사용되지만 어떠한 파일 집합의 변경사항을 지속적으로 추적하기 위해 사용될 수 있다.<br>
-기하학적 불변 이론을 바탕으로 설계됐고, 분산 버전 관리 시스템으로서 빠른 수행 속도에 중점을 두고 있는 것이 특징이며 데이터 무결성, 분산, 비선형 워크플로를 지원한다.
-
----
-## 2. Vagrant 설치
+## 1. Vagrant 설치
 
 <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Vagrant.png/150px-Vagrant.png">
 
-베이그런트(Vagrant)는 포터블 가상화 소프트웨어 개발 환경(예: 개발 생산성 증가를 위해 가상화의 소프트웨어 구성 관리의 단순화를 시도하는 버추얼박스, 하이퍼-V, 도커 컨테이너, VM웨어, AWS)의 생성 및 유지보수를 위한 오픈 소스 소프트웨어 제품의 하나이다. 베이그런트는 루비 언어로 작성되어 있지만 생태계는 몇 가지 언어로 개발을 지원한다.
+- [Vagrant 사이트](https://www.vagrantup.com/) 접속
+- Download 클릭
+- 호스트 OS에 맞춰서 설치
+- 설치 확인
+```bash
+$ vagrant -v
+```
 
 ---
-## VirtualBox 설치
+## 1. VirtualBox 설치
 
 <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Virtualbox_logo.png/100px-Virtualbox_logo.png">
 
-버추얼박스(영어: VirtualBox)는 본래 이노테크(InnoTek)가 개발한 뒤, 현재는 오라클이 개발 중인 상용, 사유 소프트웨어(제한된 GPL 버전)로, 리눅스, macOS, 솔라리스, 윈도우를 게스트 운영 체제로 가상화하는 x86 가상화 소프트웨어이다.<br>
-개발된 지 몇 해가 지나, 제한된 오픈 소스 버전인 버추얼박스 OSE가 GPL 하에 2007년 1월에 공개되었다.<br><br>
+Virtualbox 설치
 
-VMWare 워크스테이션과 마이크로소프트 버추얼 PC와 같은 다른 상용 가상화 소프트웨어와 견주어 볼 때, 버추얼박스는 기능이 부족한 편이지만 특별한 기능이 제공된다.<br>
-이를테면 원격 데스크톱 프로토콜 (RDP), iSCSI 지원, RDP를 거치는 원격 장치의 USB 지원과 같이 원격으로 가상 컴퓨터를 제어하는 기능이 있다.<br><br>
-
-버추얼박스는 인텔의 하드웨어 가상화 VT-x와 AMD의 AMD-V를 지원한다.<br><br>
-
-2007년 DesktopLinux.com의 조사에 따르면, 버추얼박스는 리눅스 데스크톱 위에 윈도 프로그램을 실행시키는 가장 인기있는 소프트웨어 패키지로 3위에 등재되었다.<br><br>
-
-2008년 2월 12일, 썬 마이크로시스템즈는 버추얼박스를 개발한 회사인 이노텍(Innotek)을 인수하였다.<br>
-2009년 4월 20일 오라클이 썬 마이크로시스템즈를 인수하면서 현재 Oracle VM VirtualBox로 배포되고 있다.<br>
+- [Virtualbox 사이트](https://www.virtualbox.org/) 접속
+- Downloads/호스트 OS에 맞는 패키지 다운로드
+- Virtualbox 설치
 
 ---
-### D2Coding 폰트 설치
+## 1. 가상 머신 프로젝트 폴더 생성
 
-꼭 해야하는 작업은 아니지만 개발자들의 편리한 CLI환경을 위하여
-D2Coding 폰트 사용을 권장한다.
-영문 알파벳 2글자에 한글 한 음에 맞도록 만들어져 있다.
+```bash
+~$ mkdir vm-project
+~$ cd vm-project
+~/vm-project$ mkdir centos
+~/vm-project$ cd centos
+~/vm-project/centos$ 
+```
+## Variant Box(가상머신 이미지) 찾기
 
-D2Coding 설치 후
+- [가상머신이미지 저장소 사이트](https://app.vagrantup.com/) 접속
+- 'centos' 검색
+- 'centos/7'의 'vagrant' 소스 코드를 집접 입력하거나
+'''bash
+~/vm-project/centos$ vagrant init "centos/7"
+'''입력하면 이미지가 없으면 다운로드 함
 
-**VScode 실행 → 파일 → 기본설정 → 설정 → 텍스트 편집기 → 글꼴**에서 D2를 검색하여 적용시킨다
+### Vagrant 설정 파일(Vagrantfile) 준비
 
+```bash
+~/vm/centos$ vagrant init centos/7
+~/vm/centos$ cat Vagrantfile
+Vagrant.configure("2") do |config|
+  # ...
+end
+```
 
+### Box 다운로드 및 VM 생성, 실행
+
+```bash
+~/vm/centos$ vagrant up
+```
+
+### 가상 머신에 ssh 접속
+
+```bash
+~/vm/centos$ vagrant ssh
+```
+
+### VM 정지
+
+```bash
+~/vm/centos$ vagrant halt
+```
+
+### VM 삭제
+
+```bash
+~/vm/centos$ vagrant destroy
+```
+
+## Vagrantfile
+
+### 호스트 이름 설정하기 
+
+```
+# /etc/hosts 파일에 등록될 이름을 지정할 수 있다.
+config.vm.hostname = "호스트명"
+
+예) config.vm.hostname = "myhost.localhost"
+```
+
+## 실행 중인 Vagrant 머신에 접속하기
+
+### 현재 프로젝트의 머신에 SSH 접속하기
+
+```bash
+$ vagrant ssh
+
+또는
+
+$ vagrant ssh default
+```
+
+### 현재 프로젝트의 머신 상태 알아내기
+
+```bash
+$ vagrant status
+Current machine states:
+
+node1                     running (virtualbox)
+node2                     running (virtualbox)
+
+This environment represents multiple VMs. The VMs are all listed
+above with their current state.
+
+# 실행 중인 머신 접속하기
+$ vagrant ssh node1
+```
+
+### 다른 프로젝트를 포함하여 머신 상태 알아내기
+
+```bash
+$ vagrant global-status
+id       name    provider   state   directory                             
+--------------------------------------------------------------------------
+f483730  default virtualbox running /Users/eomjinyoung/virtualbox/cenos   
+a3aafac  default virtualbox running /Users/eomjinyoung/virtualbox/centos2 
+ 
+...
+
+# 실행 중인 머신 접속하기
+$ vagrant ssh a3aafac
+```
+
+### ssh 로 직접 접속하기
+
+```bash
+$ ssh -i .vagrant/machines/default/virtualbox/private_key vagrant@IP주소
+```
