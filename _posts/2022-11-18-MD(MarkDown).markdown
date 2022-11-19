@@ -113,13 +113,32 @@ HTML과 마찬가지로 눈에 보이는 스타일은 무시하고 각 문법의
 
 다음과 같이 문서 내 일반 URL이나 꺾쇠 괄호(< >, Angle Brackets)안의 URL은 자동으로 링크를 사용합니다.
 
-구글 홈페이지: https://google.com/
+구글 홈페이지: <https://google.com>
 네이버 홈페이지: <https://naver.com> "네이버로 이동합니다."
 
 ---
 
+## 이미지(Image)<br>
 
+<img>로 변환됩니다.<br>
+링크과 비슷하지만 앞에 !가 붙습니다.<br><br><br>
 
+![이미지][이미지]<br>
+
+![2][사진1]
+
+![3][사진2]
+
+---
+## 이미지에 링크<br>
+
+마크다운 이미지 코드를 링크 코드로 묶어 줍니다.<br><br><br>
+
+![이미지에 링크][이미지에 링크]
+
+[![github](https://cdn-icons-png.flaticon.com/512/25/25231.png)(https:/github.com)]
+
+---
 
 
 
@@ -142,3 +161,7 @@ HTML과 마찬가지로 눈에 보이는 스타일은 무시하고 각 문법의
 [상대적 참고]: ../users/login
 [Dribbble link]: https://dribbble.com
 [1]: https://github.com
+[이미지]: https://user-images.githubusercontent.com/115456181/202827119-5ee6b3c5-d77f-477f-9847-a77d3194ec42.jpg
+[사진1]: https://user-images.githubusercontent.com/115456181/202846393-f6dee840-da9a-4167-8edc-4dbffe607a2c.jpg
+[사진2]: https://user-images.githubusercontent.com/115456181/202846395-b74e32d1-90d5-40e3-b591-df1abde07a00.jpg
+[이미지에 링크]: https://user-images.githubusercontent.com/115456181/202827121-43313be1-d9b4-4cc9-88a3-7d66ed4cacdf.jpg
