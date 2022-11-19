@@ -153,6 +153,7 @@ Guest os의 명령어를 하나의 하이퍼바이저가 해석하는게 아니�
 그래서 리눅스같은 오픈소스os를 사용해서 반가상화 방식 이용 
 
 ![가상화7][가상화7]
+
 [가상화7]: https://user-images.githubusercontent.com/115456181/202860422-2027d451-801f-4f41-b1e9-69f1e4ac98a4.jpg
 
 <https://itholic.github.io/hypervisor>
