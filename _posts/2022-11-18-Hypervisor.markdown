@@ -156,10 +156,10 @@ Guest os의 명령어를 하나의 하이퍼바이저가 해석하는게 아니�
 
 [가상화7]: https://user-images.githubusercontent.com/115456181/202860422-2027d451-801f-4f41-b1e9-69f1e4ac98a4.jpg
 
-<https://itholic.github.io/hypervisor>
+출처 : <https://itholic.github.io/hypervisor>
 
 ---
-TYPE2
+#### TYPE2
 
 일반적으로 사용하는 가상화방식(호스트형가상화) 
 <u>HOST OS위에 하이퍼바이저가 실행되고, 그 위에 Guest OS를 올리는 방식 (ex: Xen방식)</u>
@@ -172,24 +172,9 @@ virtual box 설치하고(하이퍼바이저),
 그 안에서 리눅스OS사용(게스트OS) 
 
 ---
-출처 <https://augustines.tistory.com/142> 
 
-클라우드 이해 <augustines.tistory.com><br>
-<https://itholic.github.io/hypervisor> 
-
-[virtualization] 하이퍼바이저, 전가상화, 반가상화 
-<itholic.github.io><br>
-<https://blog.naver.com/alice_k106/220218878967> 
-
-[Cloud Computing] 전가상화와 반가상화 <blog.naver.com> 
+출처 <https://augustines.tistory.com/142>
+<https://itholic.github.io/hypervisor>
+<https://blog.naver.com/alice_k106/220218878967>
 <http://blog.naver.com/PostView.nhn?blogId=shakey7&logNo=221599135601&parentCategoryNo=&categoryNo=22&viewDate=&isShowPopularPosts=true&from=search>
-
-클라우드 가상화 기술 정리 1 (서버 / 운영체제 OS / 전가상화 / 반가상화 / 하이퍼바이저 / VM웨어 / 시트릭스 / 마이크로소프트 / 레드햇 / 리눅스 / 인텔)<br>
-<http://blog.naver.com/PostView.nhn?blogId=shakey7&logNo=221472286783&from=search&redirect=Log&widgetTypeCall=true&directAccess=false> 
-
-[가상 2]: https://user-images.githubusercontent.com/115456181/202860415-a384627d-5794-44b4-9613-62d01cc83357.jpg
-[가상 3]: https://user-images.githubusercontent.com/115456181/202860416-c3b757b5-48e8-464f-b9ed-32c193126c14.jpg
-[가상 4]: https://user-images.githubusercontent.com/115456181/202860418-1f93b274-4b53-4b27-903c-12c92ab7ea15.jpg
-[가상 5]: https://user-images.githubusercontent.com/115456181/202860420-cf958e16-251c-4830-85a8-c779f515b943.jpg
-[가상 6]: https://user-images.githubusercontent.com/115456181/202860421-b7745d08-a511-4558-9570-23010dcddc2f.jpg
-[가상 7]: https://user-images.githubusercontent.com/115456181/202860422-2027d451-801f-4f41-b1e9-69f1e4ac98a4.jpg
+<http://blog.naver.com/PostView.nhn?blogId=shakey7&logNo=221472286783&from=search&redirect=Log&widgetTypeCall=true&directAccess=false>
