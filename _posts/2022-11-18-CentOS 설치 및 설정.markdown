@@ -88,8 +88,6 @@ CMD창에서 명령어를 입력할 필요없이 터미널에서 CMD 명령어�
 
 ![9][9]<br><br>
 
-- **git --version** : **옵션**으로 **--version**를 입력하면 설치된 **git의 version을 확인**할 수 있다.<br>
-
 - **sudo** : **sudo 명령어**는 유닉스 및 유닉스 계열 운영 체제에서, 다른 사용자의 보안 권한, 보통 **슈퍼유저로서 프로그램을 구동**할 수 있도록 하는 프로그램이다.<br>
 git이나 nano와 같은 프로그램을 yum을 통해서 **설치/제거** 할 때 root(관리자) 계정이 아닌 경우 **관리자 권한이 필요**하다<br>
 root 계정이 아닌 경우 관리자 권한을 부여하려면 명령어 앞에 **sudo**를 붙이면 된다. <br>
@@ -97,6 +95,15 @@ root 계정이 아닌 경우 관리자 권한을 부여하려면 명령어 앞�
 - **Yum** : Yum은 **Yellow dog Updater, Modified**의 약자로 RPM 기반의 시스템을 위한 자동 업데이터 겸 **패키지 설치/제거 도구**이다.<br>
 
 - **install** 뒤에 **-y 옵션**을 붙이면 설치 여부 및 권한 등을 묻는 부분을 묻지 않고 전부 **yes**로 입력하여 진행한다.
+
+### VM CentOS에 설치한 git 버전 확인 및 환경 설정 
+
+![9-1][9-1]
+
+- **git --version** : **옵션**으로 **--version**를 입력하면 설치된 **git의 version을 확인**할 수 있다.<br>
+- git에서 **git config --global user.name "사용자 이름"** 를 입력하여 사용자 이름 변경<br>
+- git에서 **git config --global user.email "github 가입 이메일"** 을 입력하여 이메일 변경<br>
+- git에서 **git config --list**를 입력하여 수정이 됐는지 확인
 
 ---
 ### 10. 생성한 CentOS에 Nano 설치
@@ -128,12 +135,21 @@ root 계정이 아닌 경우 관리자 권한을 부여하려면 명령어 앞�
 ### 13. 수정 및 추가할 작업 진행
 
 - 저의 github 홈페이지 테마는 **Ruby**를 사용했으며 **README.md**파일이 없어 **_config.yml** 의 내용을 수정합니다.
+![13-1][13-1]
 
+---
 #### 수정 전
 
+![13-2][13-2]<br><br>
+
+- site 화면
+![13-3][13-3]
+
+---
+#### 수정 중
 
 
-#### 수정 후
+
 
 
 ### VM 정지
@@ -158,11 +174,15 @@ root 계정이 아닌 경우 관리자 권한을 부여하려면 명령어 앞�
 [3-3]: https://user-images.githubusercontent.com/115456181/202897794-a105aa7c-954d-4f12-ad02-96443b2dad80.jpg
 [4]: https://user-images.githubusercontent.com/115456181/202904794-a9499365-f46d-4598-9511-c9c18786b78c.jpg
 [5]: https://user-images.githubusercontent.com/115456181/202907634-f8c299fb-8b7a-4417-b57b-65d28600af14.jpg
-[6]: https://user-images.githubusercontent.com/115456181/202907641-17b2dd66-7fd3-4b60-82c0-da6df73c41db.jpg
-[7]: https://user-images.githubusercontent.com/115456181/202907645-d5738093-18f7-4cf5-a510-dcc21a452a89.jpg
-[8]: https://user-images.githubusercontent.com/115456181/202907646-05e38932-dec7-439d-a9d6-93bdc7b5c47b.jpg
-[9]: https://user-images.githubusercontent.com/115456181/202908964-ddad3087-a6c4-41b3-82b9-31f920c0bbf9.jpg
-[10]: https://user-images.githubusercontent.com/115456181/202908968-d7bcc1f1-b386-4260-8ffb-b4fc1f0ca6e9.jpg
-[11]: https://user-images.githubusercontent.com/115456181/202908969-b102f874-57d0-49d9-bc80-a264d3cd1597.jpg
-[12-1]: https://user-images.githubusercontent.com/115456181/202910451-8cfe1f1b-b948-40c3-a5c3-ae578382d862.jpg
-[12-2]: https://user-images.githubusercontent.com/115456181/202910453-5be70e29-82ae-4206-be38-ec6da345aa4b.jpg
+[6]: https://user-images.githubusercontent.com/115456181/202916231-96b5ceff-67a7-40e7-bfa3-1a1488bfd881.jpg
+[7]: https://user-images.githubusercontent.com/115456181/202916232-0334cccb-967f-4da5-b219-4c5466898bd1.jpg
+[8]: https://user-images.githubusercontent.com/115456181/202916233-2fe7b1ff-476c-44c5-8e27-11f6a927a883.jpg
+[9]: https://user-images.githubusercontent.com/115456181/202916234-280e2139-91c1-415c-bf8b-7ebcbc7a3306.jpg
+[9-1]: https://user-images.githubusercontent.com/115456181/202916236-f57cde16-cc3d-41a7-8031-fa839fdd5ce6.jpg
+[10]: https://user-images.githubusercontent.com/115456181/202916237-011ef88f-b547-411e-abb1-06f41d87d274.jpg
+[11]: https://user-images.githubusercontent.com/115456181/202916238-661e87fb-78bc-4ed8-ba63-c6d6196f34ed.jpg
+[12-1]: https://user-images.githubusercontent.com/115456181/202916239-ba681686-3207-4f73-bb6d-54740daa7b8e.jpg
+[12-2]: https://user-images.githubusercontent.com/115456181/202916241-0cc2bb31-2f9a-40e8-b85a-ff434446f079.jpg
+[13-1]: https://user-images.githubusercontent.com/115456181/202916243-b4658090-f370-4992-8a95-b69cabb1dcbc.jpg
+[13-2]: https://user-images.githubusercontent.com/115456181/202916245-9e944c92-0229-4890-b32b-1941c90f5090.jpg
+[13-3]: https://user-images.githubusercontent.com/115456181/202916244-632792c9-03b4-4fd8-8e3a-8878a93c04c0.jpg
