@@ -47,7 +47,7 @@ Virtualbox 설치
 
 - [가상머신이미지 저장소 사이트](https://app.vagrantup.com/) 접속
 - 'centos' 검색 해서 vagrant를 클릭
-- <https://app.vagrantup.com/centos/boxes/7> 위 사이트로 접속이 되면 vagrantfile 부부의 소스 코드를 직접 입력하거나
+- <https://app.vagrantup.com/centos/boxes/7> 위 사이트로 접속이 되면 vagrantfile 부분의 소스 코드를 직접 입력하거나
 '''
 ~/vm-project/centos$ vagrant init "centos/7"
 '''입력하면 vagrantfile 이 생성됨
