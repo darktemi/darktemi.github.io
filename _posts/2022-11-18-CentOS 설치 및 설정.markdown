@@ -55,11 +55,19 @@ Virtualbox 설치
 ---
 ## vs code에서 Vagrant 설정 파일(Vagrantfile) 준비
 
+vscode에서 ~/vm-project/centos 폴더에 있는
+vagrantfile 파일을 확인<br>
+
 ```bash
 ~/vm/centos$ vagrant init centos/7
+~/vm/centos$ cat Vagrantfile
+Vagrant.configure("2") do |config|
+  # ...
+end
 ```
-vscode에서 ~/vm-project/centos 폴더에 있는
-vagrant 파일을 확인
+do~와 end 사이에
+config.vm.hostname=”myhost.bitcamp” 라고 입력을 하면
+호스트 이름을 myhost로 centos vm을 생성함
 
 ---
 ### Box 다운로드 및 VM 생성, 실행
@@ -100,9 +108,6 @@ config.vm.hostname = "호스트명"
 ```
 
 ---
-## 실행 중인 Vagrant 머신에 접속하기
-
----
 ## 현재 프로젝트의 머신에 SSH 접속하기
 
 ```bash
@@ -125,8 +130,12 @@ node2                     running (virtualbox)
 
 This environment represents multiple VMs. The VMs are all listed
 above with their current state.
+```
 
+---
 # 실행 중인 머신 접속하기
+
+```
 $ vagrant ssh node1
 ```
 
@@ -139,10 +148,14 @@ id       name    provider   state   directory
 --------------------------------------------------------------------------
 f483730  default virtualbox running /Users/eomjinyoung/virtualbox/cenos   
 a3aafac  default virtualbox running /Users/eomjinyoung/virtualbox/centos2 
- 
-...
+``` 
 
-# 실행 중인 머신 접속하기
+...
+## 실행 중인 머신 접속하기
+
+global-status에서 확인한 여러 VM의 코드를 입력
+
+```
 $ vagrant ssh a3aafac
 ```
 
@@ -152,3 +165,5 @@ $ vagrant ssh a3aafac
 ```bash
 $ ssh -i .vagrant/machines/default/virtualbox/private_key vagrant@IP주소
 ```
+
+
