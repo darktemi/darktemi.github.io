@@ -4,7 +4,7 @@ title: 프로필
 permalink: /about/
 ---
 
-![1][def]<br><br><br>
+![1][1]
 
 
 #### 이름 : 서영훈 ####
@@ -24,4 +24,5 @@ permalink: /about/
 
 
 
-[def]: https://user-images.githubusercontent.com/115456181/202795675-de2a2901-5036-4684-952e-e513f2ef1362.jpg
+
+[1]: https://user-images.githubusercontent.com/115456181/202888546-943ff75a-32e3-4d59-8db5-16e093cb7f4b.jpg
