@@ -17,11 +17,7 @@ categories: darktemi update
 - 호스트 OS에 맞춰서 설치
 - 설치 확인
 
-![vagrant version][vagrant version check]
-
-```bash
-$ vagrant -v
-```
+![1][1]
 
 ---
 ## Virtual Box 설치
@@ -37,25 +33,25 @@ Virtualbox 설치
 ---
 ## 가상 머신 프로젝트 폴더 생성
 
-![vm생성1][project folder]
-
-```bash
-~$ mkdir vm-project
-~$ cd vm-project
-~/vm-project$ mkdir centos
-~/vm-project$ cd centos
-~/vm-project/centos$ 
-```
+![2][2]
 
 ---
 ## Variant Box(가상머신 이미지) 찾기
 
 - [가상머신이미지 저장소 사이트](https://app.vagrantup.com/) 접속
 - 'centos' 검색 해서 vagrant를 클릭
-- <https://app.vagrantup.com/centos/boxes/7> 위 사이트로 접속이 되면 vagrantfile 부분의 소스 코드를 직접 입력하거나<br>
-'''
-~/vm-project/centos$ vagrant init "centos/7"
-'''입력하면 vagrantfile 이 생성됨
+- <https://app.vagrantup.com/centos/boxes/7> 위 사이트로 접속이 되면<br><br>
+
+#### 1. vagrantfile 부분의 소스 코드를 직접 입력하거나<br>
+
+![3-1][3-1]
+
+#### 2. ~/vm-project/centos$ vagrant init "centos/7" 을
+입력하면 vagrantfile 이 생성됨
+
+![3-2][3.2]
+
+![3-3][3-3]
 
 ---
 ## vs code에서 Vagrant 설정 파일(Vagrantfile) 준비
@@ -63,18 +59,20 @@ Virtualbox 설치
 vscode에서 ~/vm-project/centos 폴더에 있는
 vagrantfile 파일을 확인<br>
 
-```bash
-Vagrant.configure("2") do |config|
-  # ...
-end
-```
+![4][4]
 
 do~와 end 사이에
 config.vm.hostname=”myhost.bitcamp” 라고 입력을 하면
 호스트 이름을 myhost로 centos vm을 생성함
 
----
+![5][5]
 
+
+### ※참고※
+- VS Code 상단 목록 중 **터미널 - 새 터미널**을 생성하면 아래 쪽에 터미널 창 생성.
+CMD창에서 명령어를 입력할 필요없이 터미널에서 CMD 명령어를 사용하면 바로 적용됨.
+이후로는 CMD 작업을 터미널에서 진행함.
+---
 ### Box 다운로드 및 VM 생성, 실행
 
 ```bash
@@ -113,5 +111,11 @@ config.vm.hostname=”myhost.bitcamp” 라고 입력을 하면
 ```
 
 
-[vagrant version check]: https://user-images.githubusercontent.com/115456181/202896199-b4bc5db7-6f85-4235-8f5d-cfc3462982d3.jpg
-[project folder]: https://user-images.githubusercontent.com/115456181/202896072-e7115e5f-9bd9-4239-a245-650c15f1402e.jpg
+
+[1]: https://user-images.githubusercontent.com/115456181/202897786-22b35d71-9761-42c4-b41c-34db40ff2c51.jpg
+[2]: https://user-images.githubusercontent.com/115456181/202897791-38f89be6-2509-4109-b7bd-bffed888d682.jpg
+[3-1]: https://user-images.githubusercontent.com/115456181/202897792-5d766313-f0ed-4f8a-af81-0b755ac9d5bd.jpg
+[3.2]: https://user-images.githubusercontent.com/115456181/202897793-1b277f67-9c72-43b0-a3cc-e2c2446bd162.jpg
+[3-3]: https://user-images.githubusercontent.com/115456181/202897794-a105aa7c-954d-4f12-ad02-96443b2dad80.jpg
+[4]: https://user-images.githubusercontent.com/115456181/202897795-a5f3d609-4c72-421a-b703-2756d0695274.jpg
+[5]: https://user-images.githubusercontent.com/115456181/202897798-bb597f52-73d7-40ea-8c4c-694684095059.jpg
