@@ -42,12 +42,11 @@ Virtualbox 설치
 - 'centos' 검색 해서 vagrant를 클릭
 - <https://app.vagrantup.com/centos/boxes/7> 위 사이트로 접속이 되면<br><br>
 
-###### 1. vagrantfile 부분의 소스 코드를 직접 입력하거나<br>
+#### 1. vagrantfile 부분의 소스 코드를 직접 입력하거나<br>
 
 ![3-1][3-1]
 
-###### 2. ~/vm-project/centos$ vagrant init "centos/7" 을
-입력하면 vagrantfile 이 생성됨
+#### 2. ~/vm-project/centos$ vagrant init "centos/7" 을입력하면 vagrantfile 이 생성됨
 
 ![3-2][3.2]
 
@@ -66,7 +65,6 @@ config.vm.hostname=”myhost.bitcamp” 라고 입력을 하면
 호스트 이름을 myhost로 centos vm을 생성함
 
 ![5][5]
-
 
 ### ※참고※
 - VS Code 상단 목록 중 **터미널 - 새 터미널**을 생성하면 아래 쪽에 터미널 창 생성.<br>
@@ -118,5 +116,5 @@ CMD창에서 명령어를 입력할 필요없이 터미널에서 CMD 명령어�
 [3-1]: https://user-images.githubusercontent.com/115456181/202897792-5d766313-f0ed-4f8a-af81-0b755ac9d5bd.jpg
 [3.2]: https://user-images.githubusercontent.com/115456181/202897793-1b277f67-9c72-43b0-a3cc-e2c2446bd162.jpg
 [3-3]: https://user-images.githubusercontent.com/115456181/202897794-a105aa7c-954d-4f12-ad02-96443b2dad80.jpg
-[4]: https://user-images.githubusercontent.com/115456181/202897795-a5f3d609-4c72-421a-b703-2756d0695274.jpg
-[5]: https://user-images.githubusercontent.com/115456181/202897798-bb597f52-73d7-40ea-8c4c-694684095059.jpg
+[4]: https://user-images.githubusercontent.com/115456181/202904794-a9499365-f46d-4598-9511-c9c18786b78c.jpg
+[5]: https://user-images.githubusercontent.com/115456181/202904795-309d4da7-30d4-4598-b17a-a5a1e951720f.jpg
