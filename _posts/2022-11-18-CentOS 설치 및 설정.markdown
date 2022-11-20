@@ -16,6 +16,9 @@ categories: darktemi update
 - Download 클릭
 - 호스트 OS에 맞춰서 설치
 - 설치 확인
+
+![vagrant version][vagrant version check]
+
 ```bash
 $ vagrant -v
 ```
@@ -33,6 +36,8 @@ Virtualbox 설치
 
 ---
 ## 가상 머신 프로젝트 폴더 생성
+
+![vm생성1][project folder]
 
 ```bash
 ~$ mkdir vm-project
@@ -106,3 +111,7 @@ config.vm.hostname=”myhost.bitcamp” 라고 입력을 하면
 ```bash
 ~/vm-project/centos$ vagrant destroy
 ```
+
+
+[vagrant version check]: https://user-images.githubusercontent.com/115456181/202896199-b4bc5db7-6f85-4235-8f5d-cfc3462982d3.jpg
+[project folder]: https://user-images.githubusercontent.com/115456181/202896072-e7115e5f-9bd9-4239-a245-650c15f1402e.jpg
