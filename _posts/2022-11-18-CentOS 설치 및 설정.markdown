@@ -71,7 +71,9 @@ CMD창에서 명령어를 입력할 필요없이 터미널에서 CMD 명령어�
 ---
 ## 6. Box 다운로드 및 VM 생성, 실행
 
-![6][6]
+![6][6]<br>
+
+![6-1][6-1]
 
 ---
 ## 7. 가상 머신에 ssh 접속
@@ -84,7 +86,7 @@ CMD창에서 명령어를 입력할 필요없이 터미널에서 CMD 명령어�
 ![8][8]
 
 ---
-## 9. 생성한 CentOS에 git 설치
+## 9. 생성한 CentOS에 git 설치 및 환경설정
 
 ![9][9]<br><br>
 
@@ -96,7 +98,7 @@ root 계정이 아닌 경우 관리자 권한을 부여하려면 명령어 앞�
 
 - **install** 뒤에 **-y 옵션**을 붙이면 설치 여부 및 권한 등을 묻는 부분을 묻지 않고 전부 **yes**로 입력하여 진행한다.<br><br>
 
-### VM CentOS에 설치한 git 버전 확인 및 환경 설정 
+#### VM CentOS에 설치한 git 버전 확인 및 환경 설정 
 
 ![9-1][9-1]
 
@@ -174,27 +176,21 @@ root 계정이 아닌 경우 관리자 권한을 부여하려면 명령어 앞�
 
 #### 수정 후
 
-
-
-
-
-
-
---
-### VM 정지
-
-```bash
-~/vm-project/centos$ vagrant halt
-```
+![수정 후][수정 후]
 
 ---
-### VM 삭제
+## 15. VM 정지
 
-```bash
-~/vm-project/centos$ vagrant destroy
-```
+![15][15]<br>
 
+![15-1][15-1]
 
+---
+## 16. VM 삭제
+
+![16][16]
+
+---
 
 [1]: https://user-images.githubusercontent.com/115456181/202897786-22b35d71-9761-42c4-b41c-34db40ff2c51.jpg
 [2]: https://user-images.githubusercontent.com/115456181/202897791-38f89be6-2509-4109-b7bd-bffed888d682.jpg
@@ -218,3 +214,8 @@ root 계정이 아닌 경우 관리자 권한을 부여하려면 명령어 앞�
 [13-4]: https://user-images.githubusercontent.com/115456181/202916247-65ae60e8-5f6f-4a01-9b31-9206d11a90ad.jpg
 [13-5]: https://user-images.githubusercontent.com/115456181/202916251-e11ffe91-5363-4188-b391-91f1e29eebb5.jpg
 [14]: https://user-images.githubusercontent.com/115456181/202916255-02aacade-7088-476e-aa51-942f30421a59.jpg
+[수정 후]: https://user-images.githubusercontent.com/115456181/202918463-d18a58f8-0012-41b4-b54e-6e9b29068806.jpg
+[6-1]: https://user-images.githubusercontent.com/115456181/202921623-48418675-9c06-4252-9302-02f07723b96d.jpg
+[15]: https://user-images.githubusercontent.com/115456181/202921674-01be5ebf-4aa9-4240-adab-dcbaa3fced31.jpg
+[15-1]: https://user-images.githubusercontent.com/115456181/202921673-ecae9ed4-e35a-4428-93b3-d073dc153a91.jpg
+[16]: https://user-images.githubusercontent.com/115456181/202921869-f8e3864b-8a44-493e-bf3c-f47ff1fe4221.jpg
