@@ -39,7 +39,7 @@ Virtualbox 설치
 ## Variant Box(가상머신 이미지) 찾기
 
 - [가상머신이미지 저장소 사이트](https://app.vagrantup.com/) 접속
-- 'centos' 검색 해서 vagrant를 클릭
+- 'CentOS' 검색 해서 vagrant를 클릭
 - <https://app.vagrantup.com/centos/boxes/7> 위 사이트로 접속이 되면<br><br>
 
 #### 1. vagrantfile 부분의 소스 코드를 직접 입력하거나<br>
@@ -58,13 +58,13 @@ Virtualbox 설치
 vscode에서 ~/vm-project/centos 폴더에 있는
 vagrantfile 파일을 확인<br>
 
-![4][4]
+![4][4]<br><br>
 
 do~와 end 사이에
-config.vm.hostname=”myhost.bitcamp” 라고 입력을 하면
-호스트 이름을 myhost로 centos vm을 생성함
+config.vm.hostname= "myhost.bitcamp" 라고 입력을 하면
+호스트 이름을 myhost로 CentOS vm을 생성함
 
-![5][5]
+![5][5]<br><br>
 
 ### ※참고※
 - VS Code 상단 목록 중 **터미널 - 새 터미널**을 생성하면 아래 쪽에 터미널 창 생성.<br>
@@ -74,24 +74,62 @@ CMD창에서 명령어를 입력할 필요없이 터미널에서 CMD 명령어�
 ---
 ### Box 다운로드 및 VM 생성, 실행
 
-```bash
-~/vm-project/centos$ vagrant up
-```
+![6][6]
 
 ---
 ### 가상 머신에 ssh 접속
 
-```bash
-~/vm-project/centos$ vagrant ssh
-```
+![7][7]
 
 ---
 ### 해당 가상 머신에 hostname 확인
 
-```bash
-~/
+![8][8]
 
+---
+### 생성한 CentOS에 git 설치
 
+![9][9]<br><br>
+
+sudo : sudo 명령어는 유닉스 및 유닉스 계열 운영 체제에서, 다른 사용자의 보안 권한, 보통 슈퍼유저로서 프로그램을 구동할 수 있도록 하는 프로그램이다.<br>
+git이나 nano와 같은 프로그램을 yum을 통해서 설치 제거 할 때 root(관리자) 계정이 아닌 경우 관리자 권한이 필요하다<br>
+root 계정이 아닌 경우 관리자 권한을 부여하려면 명령어 앞에 **sudo**를 붙이면 된다. <br>
+
+yum : Yum은 **Yellow dog Updater, Modified**의 약자로 RPM 기반의 시스템을 위한 자동 업데이터 겸 패키지 설치/제거 도구이다.<br>
+
+- install 뒤에 -y를 붙이면 설치 여부 및 권한 등을 묻는 부분을 묻지 않고 전부 **yes**로 입력하여 진행한다.
+
+---
+### 생성한 CentOS에 Nano 설치
+
+![10][10]
+
+---
+### git repository를 가져오기 위한 폴더 생성
+
+![11][11]<br><br>
+
+ls -l 을 입력하면 현재 위치한 경로에 있는 파일과 디렉토리 리스트를 확인할 수 있다.<br>
+ls -al을 입력하면 숨김파일 및 폴더까지 확인가능하며 좀 더 자세한 정보를 볼 수 있다.
+
+---
+### github repository를 복사(clone) 후 clone 내용 확인
+
+![12-1][12-1]
+
+---
+
+### clone한 폴더로 들어가서 내용 수정 등의 작업 진행
+
+![12-2  git clone](https://user-images.githubusercontent.com/115456181/202910453-5be70e29-82ae-4206-be38-ec6da345aa4b.jpg)<br><br>
+
+-rw 로 시작하는 것은 일반 파일 및 읽기/쓰기(read/write)권한 표기<br>
+d로 시작하는 것은 디렉토리를 의미한다.
+
+---
+### 수정 및 추가할 작업 진행
+
+저희 github 홈페이지 테마는 Ruby를 사용했으며 README.md파일이 없어 _config.yml 의 내용을 수정합니다.
 
 
 
@@ -117,4 +155,11 @@ CMD창에서 명령어를 입력할 필요없이 터미널에서 CMD 명령어�
 [3.2]: https://user-images.githubusercontent.com/115456181/202897793-1b277f67-9c72-43b0-a3cc-e2c2446bd162.jpg
 [3-3]: https://user-images.githubusercontent.com/115456181/202897794-a105aa7c-954d-4f12-ad02-96443b2dad80.jpg
 [4]: https://user-images.githubusercontent.com/115456181/202904794-a9499365-f46d-4598-9511-c9c18786b78c.jpg
-[5]: https://user-images.githubusercontent.com/115456181/202904795-309d4da7-30d4-4598-b17a-a5a1e951720f.jpg
+[5]: https://user-images.githubusercontent.com/115456181/202907634-f8c299fb-8b7a-4417-b57b-65d28600af14.jpg
+[6]: https://user-images.githubusercontent.com/115456181/202907641-17b2dd66-7fd3-4b60-82c0-da6df73c41db.jpg
+[7]: https://user-images.githubusercontent.com/115456181/202907645-d5738093-18f7-4cf5-a510-dcc21a452a89.jpg
+[8]: https://user-images.githubusercontent.com/115456181/202907646-05e38932-dec7-439d-a9d6-93bdc7b5c47b.jpg
+[9]: https://user-images.githubusercontent.com/115456181/202908964-ddad3087-a6c4-41b3-82b9-31f920c0bbf9.jpg
+[10]: https://user-images.githubusercontent.com/115456181/202908968-d7bcc1f1-b386-4260-8ffb-b4fc1f0ca6e9.jpg
+[11]: https://user-images.githubusercontent.com/115456181/202908969-b102f874-57d0-49d9-bc80-a264d3cd1597.jpg
+[12-1]: https://user-images.githubusercontent.com/115456181/202910451-8cfe1f1b-b948-40c3-a5c3-ae578382d862.jpg
