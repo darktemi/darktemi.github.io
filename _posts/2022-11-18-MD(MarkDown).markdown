@@ -136,7 +136,7 @@ HTML과 마찬가지로 눈에 보이는 스타일은 무시하고 각 문법의
 
 ![이미지에 링크][이미지에 링크]
 
-[![github][github]](https:/github.com)
+[![github][github]](https://github.com)
 
 ---
 ## 수평선(Horizontal Rule)<br>
