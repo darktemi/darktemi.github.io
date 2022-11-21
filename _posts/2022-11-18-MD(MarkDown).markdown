@@ -136,7 +136,7 @@ HTML과 마찬가지로 눈에 보이는 스타일은 무시하고 각 문법의
 
 ![이미지에 링크][이미지에 링크]
 
-[![github][github]](https://github.com)
+[![github][github]](https://darktemi.github.io)
 
 ---
 ## 수평선(Horizontal Rule)<br>
@@ -163,7 +163,7 @@ HTML과 마찬가지로 눈에 보이는 스타일은 무시하고 각 문법의
 [사진2]: https://user-images.githubusercontent.com/115456181/202846395-b74e32d1-90d5-40e3-b591-df1abde07a00.jpg
 [이미지에 링크]: https://user-images.githubusercontent.com/115456181/202827121-43313be1-d9b4-4cc9-88a3-7d66ed4cacdf.jpg
 [수평선]: https://user-images.githubusercontent.com/115456181/202827113-8dd34a3f-4def-47cd-8323-c7c9d38c84d1.jpg
-[github]: https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Font_Awesome_5_brands_github.svg/54px-Font_Awesome_5_brands_github.svg.png
+[github]: https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Font_Awesome_5_brands_github.svg/116px-Font_Awesome_5_brands_github.svg.png
 [출처]: https://heropy.blog/2017/09/30/markdown
 
 
