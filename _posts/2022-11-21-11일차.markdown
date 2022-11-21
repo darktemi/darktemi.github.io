@@ -289,17 +289,47 @@ ex) 파일 공유 및 분산 다운로드
 다른 서버의 클론 파일에 같은 계산을 
 
 
+### git remote
+
+- 로컬 저장소에 연결된 원격 저장소를 확인하거나 추가한다.
+
+git remote add origin https://github.com/darktemi/bitcamp-ncp
+
+origin : 원격 저장소를 origin이라고 부르겠다고 설정
+
+git remote - origin이 
+
+git remote show origin - origin 내용 자세히 보기
+
+git pull origin main - merge 하는 이유를 작성
+
+git config --global push.default simple - ???
+
+git branch -m main - master를 main으로 변경
+
+git push --set-upstream origin main
 
 
 
+host1 리눅스 VM에서 작업을 수행
 
+1. 로컬 깃 저장소를 생성한다
 
+ ~/git/bitcamp-ncp2/
 
+2. 테스트 파일을 생성하고 로컬 저장소에 커밋한다.
 
+ ~/git/bitcamp-ncp2/a.txt
 
+ a.txt 파일의 내용을 아무거나 입력
 
+3. github.com 개인 bitcamp-ncp2 이름으로 리파지토리 생성
 
+4. 로컬 깃 저장소와 원격 깃 저장소를 연결한다.
 
+5. 로컬 깃 저장소의 내용을 원격 저장소에 push 한다.
+
+작업 완료 후 완료 회신
 
 
 
