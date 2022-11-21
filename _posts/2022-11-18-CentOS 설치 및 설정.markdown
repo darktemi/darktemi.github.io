@@ -31,7 +31,7 @@ Virtualbox 설치
 - Virtualbox 설치
 
 ---
-## 3. 가상 머신 프로젝트 폴더 생성
+## 3. 가상 머신 **프로젝트 폴더** 생성
 
 ![2][2]
 
@@ -51,6 +51,8 @@ Virtualbox 설치
 ![3-2][3.2]
 
 ![3-3][3-3]
+
+- vagrantfile은 VM 생성 시 설정파일
 
 ---
 ## 5. vs code에서 Vagrant 설정 파일(Vagrantfile) 준비
