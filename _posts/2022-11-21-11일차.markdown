@@ -165,3 +165,94 @@ Git 프로젝트는 다음 세 가지 단계로 관리된다.
   - `git commit`을 실행하면 이 스냅샷에 기록된 파일을 저장소에 보관하는 것이다.
   - 커밋을 한 후에는 Staging Area는 새 스냅샷을 준비한다.
   - Staging Area는 *인덱스*라는 이름으로도 부르지만, *Staging Area* 가 표준 이름으로 사용되는 추세이다.
+
+---
+## 실습 1. 로컬 git 저장소 만들기
+
+### ~/git/bitcamp-ncp 로 저장소로 사용할 디렉토리 생성
+
+~/git$mkdir bitcamp-ncp
+~/git$cd bitcamp-ncp
+
+
+### git 저장소 디렉토리로 만들기
+
+- .git 폴더 생성 및 초기화 작업
+
+~/git/bitcamp-ncp$git init 
+Initialized empty Git repository in /home/vagrant/git/bitcamp-ncp/.git/
+
+
+#### ※ Tree(파일탐색기) 설치(sudo yum install -y tree)
+
+#### ※ 참고
+- ls -al 에 읽기 쓰기 권한 표기 → 사용자/그룹/게스트
+- .으로 시작하는 파일은 숨김파일 및 디렉토리
+
+
+#### .gitignore 파일 생성
+
+~/git/bitcamp-ncp$vi .gitignore
+
+**git 저장소에 보관하지 않을 대상을 지정**
+도구를 실행 할 때마다 자동생성하는 파일 및 폴더 ex) .class, .exe, bin/, build/ 등
+
+- 사용 방법
+- 기존 프로젝트 저장소에 설정된 파일을 가져와서 편집
+- .gitignore 파일을 자동 생성해주는 사이트를 이용 = https://www.toptal.com/developers/gitignore/
+
+Windows, MacOS, Linux, Gradle, Java, VisualStudioCode, Eclipse
+
+해당 사이트에 검색 내용 스크립트를 .gitignore 파일에 붙여넣기
+
+
+#### git clone
+
+이미 클론을 했으면 넘어감
+
+
+#### git status
+
+작업 파일의 상태 확인
+(모든 저장소는 변경 내역의 기본 트랙이 존재한다.(= main = 옛날 master))
+
+~/git/bitcamp-ncp$git status --short
+
+??는 한번도 저장하지 않은 새로 추가한 파일
+
+
+#### git add (working directory에서 stage area로 추가)
+
+nano 로 a.txt 생성
+
+git add .gitignore
+
+git status --short로 상태 확인
+
+**- 첫 번째 열 문자 : stage area**
+**- 두 번째 열 문자 : working directory**
+
+**- ?? = 새로 추가된 후 한 번도 추가(add)되지 않은 상태**
+**- A = 새로 추가된 파일**
+**- M = 저장되어있던 파일이 변경되었다.**
+
+- 저장된 파일을 수정하면 두 번째 열(working directory)이 _M으로 변경됨
+이 상태에서 add를 진행하면
+
+→ 첫 번째 열이 M으로 바뀜 = working directory에서 stage로 추가됨.
+
+
+#### git commit
+
+git commit -m "1" 로 **stage file**만 **commit 함(working directory는 백업하지 않음)**
+
+
+
+
+
+
+
+
+
+
+
