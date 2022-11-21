@@ -211,19 +211,17 @@ Windows, MacOS, Linux, Gradle, Java, VisualStudioCode, Eclipse
 이미 클론을 했으면 넘어감
 
 
-### git status
+### git status 
 
-작업 파일의 상태 확인
+- 작업 파일의 상태 확인
 (모든 저장소는 변경 내역의 기본 트랙이 존재한다.(= main = 옛날 master))
 
-~/git/bitcamp-ncp$git status --short
+- ~/git/bitcamp-ncp$git status --short
 
-??는 한번도 저장하지 않은 새로 추가한 파일
+- ??는 한번도 저장하지 않은 새로 추가한 파일
 
 
 ### git add (working directory에서 stage area로 추가)
-
-nano 로 a.txt 생성
 
 git add .gitignore
 
@@ -242,10 +240,60 @@ git status --short로 상태 확인
 → 첫 번째 열이 M으로 바뀜 = working directory에서 stage로 추가됨.
 
 
+         Working Directory         | Staging Area | .git Directory(Repository)
+[Untracked] [Unmodified] [Modified]|[   Staged   ]|[  Committed  ]    
+
+
 ### git commit
 
-- git commit -m "내용" 으로 **stage file**만 **commit 함(working directory는 백업하지 않음)**
+- git commit -m "변경 내용" 으로 **stage file**만 **commit 함(working directory는 백업하지 않음)**
 = A나 M이 commit됨
+
+commit 한 이후에 변경 내용을 바꿀 수 없다.
+= 삽입한 해킹코드를 제거
+= 잘못을 감추기 위해 변경 안 한 것처럼 만듬
+
+
+### git log
+
+- Git 저장소의 변경 내역을 조회
+
+commit hash 값이 출력됨 → 각 commit을 구분하기 위한 식별자
+
+git log --oneline : 로그를 7자리로 간략하게 출력
+-p : 커밋의 변경 내용을 출력
+-2 최근 2개만 출력
+
+git los --oneline --graph --all
+
+
+### 데이터 비교
+
+hash 알고리즘 : 데이터를 입력받아 hash 값을 리턴하는 수학 공식<br>
+데이터를 계산하여 데이터를 축약 = 데이터 식별 ID(bit를 byte로 축약)<Br>
+
+Hash 알고리즘 계산법 : MD4, MD5, SHA-1, SHA-256, SHA-512
+
+hash code : 변경 내용에 대한 hash 알고리즘(계산) 해서 연산 수행 한 **결과값**<br>
+데이터의 크기에 상관없이 256bit 512bit 1024bit 2048bit 등의 정수값을 가진다.<br>
+= 데이터 식별자로 사용됨 = 데이터 구분
+
+
+ex) 파일 공유 및 분산 다운로드
+
+
+파일 검증
+
+원본 서버의 원본 파일 → hash 값을 공지
+
+다른 서버의 클론 파일에 같은 계산을 
+
+
+
+
+
+
+
 
 
 
