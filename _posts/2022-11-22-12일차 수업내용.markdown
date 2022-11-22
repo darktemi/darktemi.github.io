@@ -25,15 +25,48 @@ tmp 폴더 생성
 4. 그룹명
 5. 파일이나 디렉토리 링크 정보의 크기
 
+
 ## git diff
 
 추가된 내용 출력
+
 
 ## git branch
 
 vi편집기 명령어
 cat 파일명 - 파일의 모든 내용 출력
 less 파일명 - 한 페이지 내용만 출력
+
+
+## git checkout 파일명
+
+- 작업 디렉토리의 내용물을 특정 태그의 커밋 버전으로 롤백
+→ 원래 repository의 있던 파일의 상태로 롤백
+→ modified 상태에서 unmodified 상태로 롤백(= 이전 commited 파일 상태로 롤백)
+
+
+## git rm
+
+- staged 상태의 파일은 제거가 불가하다.
+
+
+## git reset HEAD 파일명
+
+git 최신버전 설치 후 git log --oneline --graph --all 로 Head를 확인
+
+Haed는 작업 브랜치 및 버전을 가리킴
+
+staged 상태의 파일을 modified 상태로 되돌림
+→ git checkout을 사용해 unmodified 상태로 되돌림
+
+## 
+
+
+
+
+
+
+
 
 
 
