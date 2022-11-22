@@ -59,11 +59,25 @@ Haed는 작업 브랜치 및 버전을 가리킴
 staged 상태의 파일을 modified 상태로 되돌림
 → git checkout을 사용해 unmodified 상태로 되돌림
 
-## 
+※ HEAD는 현재 작업중인 main 브런치
 
 
+## git fetch
 
+서버의 저장된 내용을 다운로드
 
+- git pull는 서버에서 다운로드해서 로컬과 합침
+- fetch는 서버에서 다운로드만 하고 합치지는 않음
+
+## git merge
+
+- fetch로 다운로드 받은 내용을 로컬과 합침
+
+- 현재 브랜치의 커밋에 다른 브랜치의 커밋 내용을 합친다.
+
+예1) 합치려는 브랜치가 현 브랜치 보다 Upstream(이후 버전)일 경우,
+    별도의 merge 과정이 필요없고, 해당 브랜치의 최신 버전의 커밋으로 이동한다.
+    이런 merge 방식을 'fast forward'라 부른다.
 
 
 
