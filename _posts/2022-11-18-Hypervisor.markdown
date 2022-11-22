@@ -2,7 +2,7 @@
 layout: 가상화(Virtualization)와 하이퍼바이저(Hypervisor) 
 title:  "가상화(Virtualization)와 하이퍼바이저(Hypervisor)"
 date:   2022-11-18 23:57 +0900
-categories: darktemi update
+categories: jakyll update
 ---
 
 <img width ="350" src = "https://img.alicdn.com/tfs/TB1IZBKDVYqK1RjSZLeXXbXppXa-1152-1213.png_.webp"><br><br><br>

@@ -2,7 +2,7 @@
 layout: MD(MarkDown)란 무엇인가?
 title:  "MD(MarkDown)란 무엇인가?"
 date:   2022-11-18 23:58 +0900
-categories: darktemi update
+categories: jakyll update
 ---
 
 <br><br>

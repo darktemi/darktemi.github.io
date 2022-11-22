@@ -2,7 +2,7 @@
 layout: 네이버 클라우드 AIaas 과정 1기 11일차 수업 내용
 title:  "네이버 클라우드 AIaas 과정 1기 11일차 수업 내용"
 date:   2022-11-22 23:59 +0900
-categories: darktemi update
+categories: jakyll update
 ---
 
 
@@ -40,10 +40,11 @@ less 파일명 - 한 페이지 내용만 출력
 
 ## git checkout 파일명
 
-- 작업 디렉토리의 내용물을 특정 태그의 커밋 버전으로 롤백
-→ 원래 repository의 있던 파일의 상태로 롤백
-→ modified 상태에서 unmodified 상태로 롤백(= 이전 commited 파일 상태로 롤백)
+- 작업 디렉토리의 내용물을 특정 태그의 커밋 버전으로 되돌린다.
+→ 원래 repository의 있던 파일의 상태로 되돌린다.
+→ modified 상태에서 unmodified 상태로 되돌린다.(= 이전 commited 파일 상태로 롤백)
 
+HDAE가 가리키는 브랜치의 최신 버전을 작업 디렉토리에 꺼낸다
 
 ## git rm
 
@@ -54,12 +55,10 @@ less 파일명 - 한 페이지 내용만 출력
 
 git 최신버전 설치 후 git log --oneline --graph --all 로 Head를 확인
 
-Haed는 작업 브랜치 및 버전을 가리킴
+Haed는 현재 작업 브랜치 및 버전을 가리킴
 
 staged 상태의 파일을 modified 상태로 되돌림
 → git checkout을 사용해 unmodified 상태로 되돌림
-
-※ HEAD는 현재 작업중인 main 브런치
 
 
 ## git fetch
@@ -82,6 +81,78 @@ staged 상태의 파일을 modified 상태로 되돌림
     이런 merge 방식을 'fast forward'라 부른다.
 
 # 중요!!) 작업 후 서버에 올리기 전에 다른 사람이 작업한 것을 날리지 않기위해서는 git pull을 무조건 실행 한 후 충돌나는 부분은 직접 수정 후 업로드
+
+
+## branch 브랜치를 새로 만들기
+
+git branch 브랜치명
+
+## 브랜치 삭제
+
+git branch -d
+
+## 해드 브랜치를 옴기기
+
+git checkout 브랜치 명
+
+브랜치를 바꾸면 이전 작업 디렉토리를 싹 지우고 새로 꺼냄
+
+**git log를 확인하여 해시태그로 checkout하면 해당 버전의 상태로도 확인 가능**
+
+## 브랜치 합치기
+
+HEAD가 main인 상태에서 git merge [다른 브랜치명]
+
+변경 사항이 없는 브랜치에 변경 사항이 있는 브랜치가 합쳐질 때는 따로 스냅샷을 하지 않는다 = fast-forward
+
+※ 변경되지 않고 지워진 파일이 합쳐진 main에 새로 생기지는 않음
+
+## 중요!! 한번 main과 합쳤으면 새로 생성한 브랜치는 지우고 새로 만들어서 작업을해야 충돌이 안남
+
+## 중요!! 작업 시 메인 브랜치에서 작업하지 않고 브랜치를 새로 만든 후 main 브랜치와 합친 후 push
+
+## 작업 순서
+
+1. server repository clone하여 가져옴
+2. branch 생성 생성한 branch에서 작업
+3. main branch로 작업한 내역 merge
+4. 서버에 다른 작업자의 변경 내역을 pull로 댕겨서 merge
+5. 서버에 push
+6. 작업 후 생성한 branch 지우기
+
+## git ls-remote
+
+서버와 로컬의 main 브런치 해시코드 확인
+
+## git branch -vv
+
+
+# 실습 
+
+1. 팀을 구성한다.
+
+2. repository를 bitcamp-test 으로 생성
+
+3. add people에서 아이디 입력 협력자 등록
+
+4. 각 팀원은 팀프로젝트 용으로 만든 깃 저장소를 로컬로 clone 한다.
+
+5. 각 팀원은 브랜치를 생성한 후 임의의 파일 생성, 변경, 삭제 작업을 진행한다.
+
+6. 각 팀원은 브랜치에서 작업한 내용을 최소 3번 이상 커밋을 수행한다.
+
+7. 각 팀원은 브랜치로 작업한 내용을 로컬 main 브랜치에 합친다.
+
+8. 각 팀원은 로컬 main 브랜치의 커밋 내용을 팀 공유 서버 저장소에 push한다.
+  - push하다가 충돌 발생 시 충돌 내용을 로컬에서 병합한 후 서버 저장소에 올림
+
+
+  과제 제출 내용
+
+  1. 수강생 깃 이름 :
+
+  2. 공유 깃 저장소 URL : 
+
 
 
 
