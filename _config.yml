@@ -1,11 +1,11 @@
 # Setup
-title: Not Pure Poole
-description: A simple, beautiful, and powerful Jekyll theme for blogs
-url: https://vszhub.github.io
-avatar: /avatar.jpeg
+title: 서영훈의 블로그
+description: 배구, 등산, 맛집 탐방 등 소소한 일상
+url: https://darktemi.github.io/darktemi90
+avatar: /2.jpg
 paginate: 5
 permalink: pretty
-cover_image: /bg.jpeg
+cover_image: /3.jpg
 
 # Gems
 plugins:
@@ -29,14 +29,15 @@ exclude:
 
 # Optimize Jekyl SEO Tag
 twitter:
-  username: vszhub
+  username: 서영훈
   card: summary
 logo: logo.png
 social:
-  name: Songzi Vong
+  name: 서영훈
   links:
-    - https://twitter.com/vszhub
-    - https://github.com/vszhub
+    - https://www.facebook.com/younghun.seo.71
+    - https://www.instagram.com/seo_johnbosco/
+    - https://github.com/darktemi
 google_site_verification: xxxxx
 lang: en
 
@@ -54,6 +55,6 @@ sass:
 
 # Specify the author for blog posts
 author:
-  name: Songzi Vong
-  url: https://github.com/vszhub/
-  email: vszhub@gmail.com
+  name: 서영훈
+  url: https://github.com/darktemi
+  email: darktemi90@nate.com
