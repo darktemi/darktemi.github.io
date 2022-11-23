@@ -1,11 +1,7 @@
 ---
-layout: post
+layout: page
 title: 링크 테스트
-date: 2022-11-18 23:59 +0800
-tags: [jekyll theme, jekyll, tutorial]
-toc:  true
 ---
-
 
 ## [수업 내용](/darktemi90/day10.md)
 
