@@ -1,4 +1,6 @@
-- title: Blog
-  url: /
-- title: About
+- title: Home
+  url: //
+- title: 프로필
   url: /about/
+- title: 수업내용 test 중
+  url: /class/
