@@ -3,7 +3,7 @@ layout: post
 title: 가상화(Virtualization)와 하이퍼바이저(Hypervisor)
 tags: mathjax
 math: true
-date: 2022-11-18 23:57 +0900
+date: 2022-11-18 11:00 +0900
 ---
 
 
